@@ -4,7 +4,6 @@
 #
 %define		pdir	IPC
 %define		pnam	System-Simple
-%include	/usr/lib/rpm/macros.perl
 Summary:	IPC::System::Simple - Run commands simply, with detailed diagnostics
 Summary(pl.UTF-8):	IPC::System::Simple - proste uruchamianie poleceń ze szczegółową diagnostyką
 Name:		perl-IPC-System-Simple
