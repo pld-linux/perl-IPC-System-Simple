@@ -7,17 +7,18 @@
 Summary:	IPC::System::Simple - Run commands simply, with detailed diagnostics
 Summary(pl.UTF-8):	IPC::System::Simple - proste uruchamianie poleceń ze szczegółową diagnostyką
 Name:		perl-IPC-System-Simple
-Version:	1.25
+Version:	1.30
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/IPC/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	fb49e674e1d52e8e5646d08507d7fda5
+# Source0-md5:	e68341fd958fd013b3521d909904f675
 URL:		https://metacpan.org/release/IPC-System-Simple
 BuildRequires:	perl-ExtUtils-MakeMaker >= 6.30
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
+BuildRequires:	rpmbuild(macros) >= 1.745
 %if %{with tests}
 BuildRequires:	perl-Scalar-List-Utils
 BuildRequires:	perl-Test-Simple
